@@ -17,9 +17,13 @@ public class Date3 {
         // convertendo o instant para o local date.
         LocalDate r1 = LocalDate.ofInstant(data26, ZoneId.systemDefault()); 
         // LocalDate r2 = LocalDate.ofInstant(data26, ZoneId.of("Portugal")); 
-        
+
         System.out.println("r1 = " + formater.format(r1));
         // System.out.println("r2 = " + formater.format(r2));
+
+
+        System.out.println("dia do data24 = " + data24.getDayOfMonth());
+        System.out.println("Hora do dia data25 = " + data25.getHour());
 
         
 
