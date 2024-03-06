@@ -17,8 +17,8 @@ import com.educandoweb.course.services.OrderService;
 @RequestMapping(value = "/orders")
 public class OrderResource {
 
-    @Autowired // UserResource depende de UserService
-    private OrderService service;  // dependencia para OrderService
+    @Autowired // OrderResource depende de OrderService
+    private OrderService service;  // OrderResource tem um OrderService
     
     @GetMapping
     public ResponseEntity<List> findAll(){

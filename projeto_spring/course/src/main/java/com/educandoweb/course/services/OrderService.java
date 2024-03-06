@@ -13,7 +13,7 @@ import com.educandoweb.course.repositores.OrderRepository;
 public class OrderService {
 
     @Autowired
-    private OrderRepository repository;
+    private OrderRepository repository; // OrderService depende de OrderRepository
 
     public List<Order> findAll(){
         return repository.findAll();
