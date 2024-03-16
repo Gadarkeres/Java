@@ -5,7 +5,7 @@ import java.time.Instant;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
-public class StandardError implements Serializable {
+public class StandardError implements Serializable { // corpo da resposta de erro definindo no ResourceExceptionHandler 
     private static final long serialVersionUID = 1L;
 
 
